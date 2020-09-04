@@ -110,7 +110,7 @@ int main() {
     int fl = 0;    
     for(int k = len-1; k >= 0; --k) {
         if(f[0][0][k]) fl = 1;
-        if(fl) {printf("%d", f[0][0][k]);}
+        if(fl) {printf("%d", f[0][0][k]);}//
     }
     
 }
