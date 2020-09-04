@@ -2,7 +2,7 @@
 
 int ar[10000][1000],k=1;
 
-void fibonacci(int n) \\Fibonacci Function
+void fibonacci(int n) //Fibonacci Function
 {
 		while(k<n)        
 		{
@@ -27,7 +27,7 @@ void fibonacci(int n) \\Fibonacci Function
 }
  
 
-int main() \\Driver code
+int main() //Driver code
 {
 	ar[1][999]=1;
 	int t=1;
